@@ -1,0 +1,166 @@
+body{
+	height: 1000px;	
+}
+h1{
+	text-align: center;
+	font-family:cursive;
+}
+body>section{
+	margin:1%;
+	border:1px solid black;
+	position: relative;
+	background-color: #999999;
+	overflow: hidden;
+	box-sizing: border-box;	
+}
+@media(min-width: 992px){
+    #title1-color{
+	    background-color:#D59898;
+	    color:#131d3a;
+    }
+    #title2-color{
+	    background-color:#C14543;
+	    color: #ffffff;
+    }
+    #title3-color{
+        background-color:#E5D198;
+        color: #000000;
+    }
+   .title{
+	    width: 100px;
+	    height: 20px;
+	    text-align: center;
+	    border:1px solid black;
+	    padding: 4px;
+	    position: absolute;
+	    top: 0;
+	    right:0;
+	    font-style: bold;
+	    font-size: 20px;
+	    color:#ffffff;
+    }
+    #par{
+	    position: absolute;
+	    font-size: 18px;
+	    padding: 12px;
+	    top: 10px;
+}
+	#sec1{
+		width: 32%;
+		height: 150px;
+		float: left;
+		margin-left: auto;	
+	}
+	#sec2{
+		width: 32%;
+		height: 150px;
+		float:left;
+	}
+	#sec3{
+		width: 32%;	
+		height: 150px;
+		margin-right: auto;
+		float: left;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+    #title1-color{
+	    background-color:#D59898;
+	    color:#131d3a;
+     }
+    #title2-color{
+	    background-color:#C14543;
+	    color: #ffffff;
+    }
+    #title3-color{
+        background-color:#E5D198;
+
+    }
+	.title{
+        width: 125px;
+	    height: 20px;
+	    text-align: center;
+	    border: 1px solid black; 
+	    padding: 4px;
+	    position: absolute;
+	    top: 0;
+	    right:0;
+	    font-style: bold;
+	    font-size: 20px;
+    }
+    #par{
+	    position: absolute;
+	    font-size: 18px;
+	    top: 8px;
+	    padding: 8px;
+    }
+	#sec1{
+		width: 47%;
+		height: 150px;
+		float: left;
+	}
+	#sec2{
+		width: 47%;
+		height: 150px;
+		float: left;
+	}
+	#sec3{
+		width: 96%;
+		height: 150px;
+		float: left;
+		clear: both;
+	}
+}
+@media(max-width: 767px){
+    #title1-color{
+	    background-color:#D59898;
+	    color:#131d3a;
+    }
+    #title2-color{
+	    background-color:#C14543;
+	    color: #ffffff;
+    }
+    #title3-color{
+        background-color:#E5D198;
+        color: #000000;
+    }
+   .title{
+	    width: 100px;
+	    height: 20px;
+	    text-align: center;
+	    border:1px solid black;
+	    padding: 4px;
+	    position: absolute;
+	    top: 0;
+	    right:0;
+	    font-style: bold;
+	    font-size: 20px;
+    }
+    #par{
+	    position: absolute;
+	    font-size: 18px;
+	    padding: 8px;
+	    top: 10px;
+	} 
+    #sec1{
+		width: 90%;
+		height: 150px;
+		clear: both;
+		margin: auto;
+		margin-bottom: 4px;		
+	}		
+    #sec2{
+		width: 90%;
+		height: 150px;
+		clear: both;
+		margin: auto;
+		margin-bottom: 4px;	
+	}	
+    #sec3{
+		width: 90%;
+		height: 150px;
+		cseclear: both;
+		margin: auto;
+		margin-bottom: 4px;
+	}
+}	
